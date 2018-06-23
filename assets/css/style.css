@@ -1,0 +1,67 @@
+body {
+	margin: 20px;
+	background-color: lightgray;
+}
+
+h1 {
+	text-shadow: 1px 1px black;
+	font-weight: bold;
+}
+
+button {
+  background-color: navy;
+  color: white;
+  margin: 5px;
+  padding: 3px 15px;
+}
+
+#buttons {
+	margin-top: 20px;
+}
+
+p {
+	color: black;
+	margin-top: 40px;
+	line-height: 3px;
+}
+
+form {
+	color: black;
+	padding: 15px;
+	border: 2px solid black;
+}
+
+#add-animal {
+	background-color: navy;
+	color: white;
+	margin-top: 20px;
+	padding: 5px 15px;
+}
+
+h5 {
+	color: black;
+	font-weight: normal;
+	margin-left: 5px;
+	margin-top: 20px;
+}
+
+.item {
+	margin-right: 20px;
+}
+
+.gif {
+	border: 4px solid navy;
+}
+
+/* Responsiveness with @Media */
+@media screen and (max-width: 640px) {
+
+	h6 {
+		margin-top: 30px;
+	}
+
+	form {
+		margin-top: 20px;
+	}
+
+}
